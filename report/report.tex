@@ -1,0 +1,98 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{textcomp}
+
+\title{Report: Debt Relief Success Rate}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+\begin{itemize}
+  \item Number of persons in the sample: \textbf{N = 25\,000}
+  \item Successfully discharged: \textbf{20\,972}
+  \item Overall success rate: \textbf{0.8389} (i.e., \textbf{83.89\%})
+\end{itemize}
+
+\section{Success rate by sex/gender}
+Unspecified sex/gender: \textbf{39} persons (excluded from the table below).
+
+\begin{table}[h]
+\centering
+\caption{Success rate by sex/gender}
+\begin{tabular}{lrrrr}
+\toprule
+Sex/Gender & Persons & Successful & Success rate & Success rate (\%) \\
+\midrule
+F & 12\,365 & 10\,498 & 0.8488 & 84.88 \\
+M & 12\,596 & 10\,435 & 0.8283 & 82.83 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Success rate by court}
+\begin{table}[h]
+\centering
+\caption{Success rate by court}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Court & Persons & Successful & Success rate & Success rate (\%) \\
+\midrule
+Krajský soud v Ostravě pobočka Olomouc & 981  & 853  & 0.8695 & 86.95 \\
+Krajský soud v Ostravě                 & 4003 & 3460 & 0.8644 & 86.44 \\
+Krajský soud v Ústí nad Labem pobočka Liberec & 1253 & 1080 & 0.8620 & 86.20 \\
+Krajský soud v Hradci Králové          & 1783 & 1535 & 0.8609 & 86.09 \\
+Krajský soud v Praze                   & 2802 & 2386 & 0.8516 & 85.16 \\
+Krajský soud v Plzni                   & 2561 & 2174 & 0.8489 & 84.89 \\
+Krajský soud v Brně                    & 3609 & 2976 & 0.8246 & 82.46 \\
+Krajský soud v Hradci Králové pobočka Pardubice & 1308 & 1078 & 0.8242 & 82.42 \\
+Městský soud v Praze                   & 1591 & 1307 & 0.8216 & 82.16 \\
+Krajský soud v Českých Budějovicích    & 1803 & 1478 & 0.8198 & 81.98 \\
+Krajský soud v Ústí nad Labem          & 3306 & 2631 & 0.7958 & 79.58 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\newpage
+
+\section{Success rate over time}
+The time anchor is the year of the earliest observed ``request/start'' event in each case.
+
+\begin{table}[h]
+\centering
+\caption{Success rate by year (request/start year)}
+\begin{tabular}{rrrrr}
+\toprule
+Year & Persons & Successful & Success rate & Success rate (\%) \\
+\midrule
+2014 & 5194 & 4858 & 0.9353 & 93.53 \\
+2015 & 5137 & 4848 & 0.9437 & 94.37 \\
+2016 & 4714 & 4366 & 0.9262 & 92.62 \\
+2017 & 3860 & 3518 & 0.9114 & 91.14 \\
+2018 & 3785 & 3362 & 0.8883 & 88.83 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{success_over_time.pdf}
+\caption{Debt relief success over time (2014--2018).}
+\end{figure}
+
+\end{document}
