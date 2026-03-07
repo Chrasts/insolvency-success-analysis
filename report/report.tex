@@ -1,0 +1,95 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{textcomp}
+
+\title{Report: Debt Relief Success Rate}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+\begin{itemize}
+  \item Number of persons in the sample: \textbf{N = 1\,088}
+  \item Successfully discharged: \textbf{496}
+  \item Overall success rate: \textbf{0.4559} (i.e., \textbf{45.59\%})
+\end{itemize}
+
+\section{Success rate by sex/gender}
+Unspecified sex/gender: \textbf{0} persons (excluded from the table below).
+
+\begin{table}[h]
+\centering
+\caption{Success rate by sex/gender}
+\begin{tabular}{lrrrr}
+\toprule
+Sex/Gender & Persons & Successful & Success rate & Success rate (\%) \\
+\midrule
+F & 534 & 250 & 0.4682 & 46.82 \\
+M & 554 & 246 & 0.4440 & 44.40 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Success rate by court}
+\begin{table}[h]
+\centering
+\caption{Success rate by court}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Court & Persons & Successful & Success rate & Success rate (\%) \\
+\midrule
+Regional Court in Prague           & 150 & 72 & 0.4800 & 48.00 \\
+Regional Court in Ceske Budejovice & 113 & 54 & 0.4779 & 47.79 \\
+Regional Court in Usti nad Labem   & 174 & 83 & 0.4770 & 47.70 \\
+Regional Court in Ostrava          & 169 & 80 & 0.4734 & 47.34 \\
+Municipal Court in Prague          & 98  & 44 & 0.4490 & 44.90 \\
+Regional Court in Pilsen           & 143 & 64 & 0.4476 & 44.76 \\
+Regional Court in Brno             & 123 & 52 & 0.4228 & 42.28 \\
+Regional Court in Hradec Kralove   & 118 & 47 & 0.3983 & 39.83 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\newpage
+
+\section{Success rate over time}
+The time anchor is the year of the earliest observed ``request/start'' event in each case.
+
+\begin{table}[h]
+\centering
+\caption{Success rate by year (request/start year)}
+\begin{tabular}{rrrrr}
+\toprule
+Year & Persons & Successful & Success rate & Success rate (\%) \\
+\midrule
+2014 & 119 & 40  & 0.3361 & 33.61 \\
+2015 & 226 & 80  & 0.3540 & 35.40 \\
+2016 & 240 & 100 & 0.4167 & 41.67 \\
+2017 & 237 & 139 & 0.5865 & 58.65 \\
+2018 & 266 & 137 & 0.5150 & 51.50 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/success_over_time.pdf}
+\caption{Debt relief success over time (2014--2018).}
+\end{figure}
+
+\end{document}
