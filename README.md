@@ -2,7 +2,7 @@
 
 This repository contains a small end-to-end data analysis project based on two relational tables describing insolvency (debt relief) proceedings. The goal is to infer whether a proceeding was **successfully completed** from an event log, link the outcome to debtor characteristics, and summarize results in a short PDF report.
 
-> Note: The CSV input files included in this public repository are **fictional sample files** created for demonstration purposes. They are structurally similar to the original inputs used for the assignment, but they do **not** contain real case data. Therefore, any results reproduced from the public repository are only illustrative and do not correspond to real-world insolvency outcomes.
+> Note: The CSV input files included in this repository are **fictional sample files** created for demonstration purposes. They are structurally similar to the original inputs used for the assignment, but they do **not** contain real case data. Therefore, any results reproduced from the public repository are only illustrative and do not correspond to real-world insolvency outcomes.
 
 ---
 
