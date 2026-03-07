@@ -69,6 +69,27 @@ The binary label `success` is assigned at the **person level** by linking each p
 
 - **`LICENSE`**  
   License file for the repository.
+  
+---
+
+## How to run
+
+Install Python dependencies:
+
+pip install -r requirements.txt
+
+Run the analysis script from the repository root:
+
+python src/analysis.py
+
+This produces:
+- printed summary statistics in the terminal,
+- `report/figures/success_over_time.pdf`
+
+To compile the LaTeX report:
+
+cd report
+pdflatex report.tex
 
 ---
 
