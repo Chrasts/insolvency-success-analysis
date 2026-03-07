@@ -120,19 +120,7 @@ This separation keeps the analysis logic in Python while LaTeX handles the repor
 
 ---
 
-## Methodological note
-
-The time-based comparison uses the year of the earliest observed request/start event in each case as the time anchor. Time trends should be interpreted cautiously, especially in general applications, because more recent cohorts may have had less time to reach a successful discharge outcome.
-
----
-
 ## Tooling
 
 - Python (`pandas`, `matplotlib`)
 - LaTeX (for report compilation)
-
----
-
-## AI usage disclosure
-
-AI tools were used for consultation, code review, and interpretation checks during development of the public project materials.
