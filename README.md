@@ -62,10 +62,10 @@ The binary label `success` is assigned at the **person level** by linking each p
   The final PDF report (tables + plot).
 
 - **`data/cases.csv`** and **`data/events.csv`**  
-  Public sample input files included for demonstration and repository completeness. These files are intentionally fictional and should be understood as portfolio-safe examples rather than real research data.
+  Public sample input files. These files are intentionally fictional and should be understood as portfolio-safe examples rather than real research data.
 
 - **`report/figures/success_over_time.pdf`**  
-  A PDF file containing the time-trend plot produced by `src/analysis.py` (included for convenience if present in the repository).
+  A PDF file containing the time-trend plot produced by `src/analysis.py`.
 
 - **`LICENSE`**  
   License file for the repository.
